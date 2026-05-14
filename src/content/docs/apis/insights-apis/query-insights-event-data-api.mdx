@@ -26,6 +26,8 @@ The New Relic Insights query API is a REST API for making NRQL queries.
 
 <Callout variant="tip">
   <DNT>**This API is no longer the preferred way to query New Relic data.**</DNT> Please use [NerdGraph](/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/) to do that.
+
+  The JP data center is not supported by this API. [NerdGraph](/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/) is the only supported API to query New Relic data using [JP region endpoints](/docs/accounts/accounts-billing/account-setup/choose-your-data-center/).
 </Callout>
 
 ## Requirements and recommendations [#requirements]
@@ -38,6 +40,8 @@ To add custom data to New Relic, see [Report custom data](/docs/data-apis/custom
 
 If your organization hosts data in the EU data center, ensure you're using the proper [EU region endpoints](/docs/using-new-relic/welcome-new-relic/getting-started/introduction-eu-region-data-center#endpoints).
 
+The JP data center is not supported by this API. [NerdGraph](/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/) is the only supported API to query New Relic data using [JP region endpoints](/docs/accounts/accounts-billing/account-setup/choose-your-data-center/).
+
 ## 1. Register an API key [#register]
 
 To use the Insights query API, you need a query key. You can have multiple query keys, and any query key can be used to initiate any Insights API query. If you have multiple systems querying Insights or different data destinations, New Relic recommends you use multiple query keys to enhance data security.
@@ -46,6 +50,8 @@ For security reasons, query keys cannot be altered or read using the API. To cha
 
 <Callout variant="tip">
   <DNT>**This API is no longer the preferred way to query New Relic data.**</DNT> Please use [NerdGraph](/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/) to do that.
+
+  The JP data center is not supported by this API. [NerdGraph](/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/) is the only supported API to query New Relic data using [JP region endpoints](/docs/accounts/accounts-billing/account-setup/choose-your-data-center/).
 </Callout>
 
 To create a new query key:
@@ -56,8 +62,8 @@ To create a new query key:
 
 3. Configure the new key:
 
-* Enter a name for the new key in the provided field.
-* Add a description (such as "Query key").
+   * Enter a name for the new key in the provided field.
+   * Add a description (such as "Query key").
 
 4. Click <DNT>**Save**</DNT> to generate the new key.
 
